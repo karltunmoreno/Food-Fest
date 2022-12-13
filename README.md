@@ -1,6 +1,6 @@
 # Food-Fest
 
-Find a food festival near you. 
+Find a food festival near you. Progresive Web Application.
 
 _____________________________________________________________________________________________________________________________________________________________
 
@@ -8,15 +8,29 @@ ________________________________________________________________________________
 
 ![Ss](https://karltunmoreno.github.io/My-Portfolio/assets/images/foddfest1.jpg)
 
+_____________________________________________________________________________________________________________________________________________________________
+
 - As a user, I want the application to load quickly
-  Add offline functionality
+  Added offline functionality
 
 - As a user, I want to use the Food Festival application even if I don't have an internet connection
-  Allow users to download the application as if it were a phone app
+  Allows users to download the application as if it were a phone app
 
 - As a user, I want to download the app to the home screen on my mobile device
+_____________________________________________________________________________________________________________________________________________________________
 
-DOWNLOAD STARTER CODE
+
+##Tech Used:
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?logo=css3&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&color=d1b01f)
+ ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?logo=bootstrap&logoColor=white&style=for-the-badge)
+ ![Heroku](https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=ffffff)
+ 
+ _____________________________________________________________________________________________________________________________________________________________
+
+1. DOWNLOAD CLIENT STARTER CODE
 
 By navigating around the homepage in our browser, we can discover the following basic behaviors:
 
@@ -34,17 +48,14 @@ The event data must be stored in localStorage in order to be accessed on both th
 
 The project doesn't include a server, but it does include static assets.
 
-In this lesson, we've added the following to our knowledge base:
 
-How to use a manifest.json in our projects, and how that will work along with a service worker to make our app a PWA.
+Used a manifest.json in our projects, and how that will work along with a service worker to make our app a PWA.
 
-How to link a manifest to the HTML to let the browser know the app is a PWA.
+Linked a manifest to the HTML to let the browser know the app is a PWA.
 
-How to use webpack to dynamically create a manifest.json based on configurations provided in webpack.config.js.
+Usde webpack to dynamically create a manifest.json based on configurations provided in webpack.config.js.
 
-How to add properties to the manifest.json so the user can add the PWA to the home screen of their mobile device.
-
-Now let's look at some of the big takeaways from this module:
+Added properties to the manifest.json so the user can add the PWA to the home screen of their mobile device.
 
 Measured performance metrics for a website using Chrome DevTool's Lighthouse app.
 
@@ -56,4 +67,4 @@ Used service workers to cache the websites assets for offline functionality.
 
 Offered installable icons for quick access to our app using PWAs.
 
-This module should serve as a nice transition into the next unit, React. We will use webpack with React to build and modularize our application. webpack will be key in creating our dependency graph that will keep our modules in React linked to their dependencies.
+
